@@ -25,17 +25,14 @@ export interface Database {
       };
       liked_songs: {
         Row: {
-          created_at: string | null;
           song_id: number;
           user_id: string;
         };
         Insert: {
-          created_at?: string | null;
           song_id: number;
           user_id: string;
         };
         Update: {
-          created_at?: string | null;
           song_id?: number;
           user_id?: string;
         };
