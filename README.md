@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+      <h1> <img src="https://cdn-icons-png.flaticon.com/512/2111/2111624.png" width="80px"><br/>Spotify</h1>
+     </div>
 
-## Getting Started
+# Description
 
-First, run the development server:
+Spotify Clone
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a music player that looks like spotify it has most of the functionality like subscription and all that.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<img src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1685912966/Screenshot_2023-06-05_023623_xq4xwk.png"> <img src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1685912966/Screenshot_2023-06-05_023559_u7zdke.png"> <img src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1685912966/Screenshot_2023-06-05_023752_drsh6o.png"> <img src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1685912966/Screenshot_2023-06-05_023726_ch0ywz.png"> <img src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1685912966/Screenshot_2023-06-05_023645_htz4fl.png">
 
-## Learn More
+# Tech Used
 
-To learn more about Next.js, take a look at the following resources:
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### API references
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+| Syntax                             | Description |
+| ---------------------------------- | ----------- |
+| NEXT_PUBLIC_SUPABASE_URL           | ########    |
+| NEXT_PUBLIC_SUPABASE_ANON_KEY      | ########    |
+| SUPABASE_SERVICE_ROLE_KEY          | ########    |
+| NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY | ########    |
+| STRIPE_SECRET_KEY                  | ########    |
+| STRIPE_WEBHOOK_SECRET              | ########    |
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
