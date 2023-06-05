@@ -67,7 +67,7 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({ products }) => {
 
   let content = <div className="text-center">No products available.</div>;
 
-  if (products?.length) {
+  if (products.length) {
     content = (
       <div>
         {products.map((product) => {
